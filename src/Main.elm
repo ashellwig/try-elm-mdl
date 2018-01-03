@@ -85,7 +85,7 @@ view model =
         ]
         { header = [ h1 [ style [ ( "padding", "2rem" ) ] ] [ text "Counter" ] ]
         , drawer = []
-        , tabs = ( [], [] )
+        , tabs = ( [ text "People", text "Deals" ], [] )
         , main = [ viewBody model ]
         }
 
